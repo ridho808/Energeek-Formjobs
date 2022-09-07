@@ -114,7 +114,7 @@ export default function Form() {
             <div className='w-[90%] mx-auto'>
               <label className='text-lg font-bold text-neutral-600'>Skill</label>
               <CreatableSelect isMulti  options={Skill} defaultValue={valueSkill} onChange={setValueSkill}
-              classNamePrefix="select" placeholder="Pilih Jabatan.."/>
+              classNamePrefix="select" placeholder="Pilih Skill.."/>
             </div>
             <button className='w-[90%] mx-auto bg-red-400 h-[50px] text-xl font-bold text-white rounded-md'>Apply</button>
           </div>
